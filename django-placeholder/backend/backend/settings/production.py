@@ -10,7 +10,12 @@ DB = os.getenv("DB")
 PASS = os.getenv("PASS")
 
 DEBUG = False
-ALLOWED_HOSTS = [ "https://placeholder.humbingo.in"]
+ALLOWED_HOSTS = [
+    "sms-backend-252c.onrender.com",
+    "localhost",
+    "127.0.0.1",
+    "https://placeholder.humbingo.in"
+]
 
 CORS_ALLOWED_ORIGINS = [ 
     "https://placeholder.humbingo.in",
